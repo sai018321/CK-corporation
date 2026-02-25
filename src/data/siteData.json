@@ -1,7 +1,7 @@
 {
   "logo": {
     "text": "CK Corporation",
-    "image": "https://picsum.photos/seed/cklogo/200/50"
+    "image": "/assets/1.jpg"
   },
   "theme": {
     "primary": "#1a202c",
@@ -10,22 +10,22 @@
   "home": {
     "hero": {
       "title": "We are full service provider of Engineering, Procurement, Fabrication and Project Management",
-      "image": "https://picsum.photos/seed/ckhero/1920/600"
+      "image": "/assets/2.png"
     },
     "solutions": {
       "title": "CK Corporation Provides Reasonable of Solutions for Clients",
       "items": [
         {
           "title": "HRSG (Heat Recovery Steam Generation)",
-          "image": "https://picsum.photos/seed/hrsg/400/300"
+          "image": "/assets/3.png"
         },
         {
           "title": "Modular Construction",
-          "image": "https://picsum.photos/seed/modular/400/300"
+          "image": "/assets/4.png"
         },
         {
           "title": "Evaporator for Desalination Plant",
-          "image": "https://picsum.photos/seed/evaporator/400/300"
+          "image": "/assets/5.png"
         }
       ]
     },
@@ -34,15 +34,15 @@
       "items": [
         {
           "title": "Reactor (Cr-Mo & Vanadium)",
-          "image": "https://picsum.photos/seed/reactor/400/300"
+          "image": "/assets/6.png"
         },
         {
           "title": "Special & High Pressure Heat Exchanger",
-          "image": "https://picsum.photos/seed/exchanger/400/300"
+          "image": "/assets/7.png"
         },
         {
           "title": "Tower/ Column/ Pressure Vessel",
-          "image": "https://picsum.photos/seed/vessel/400/300"
+          "image": "/assets/8.png"
         }
       ]
     }
@@ -58,7 +58,7 @@
       {
         "id": 2,
         "type": "image",
-        "content": "https://picsum.photos/seed/about1/1200/600",
+        "content": "/assets/9.png",
         "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
       },
       {
@@ -80,7 +80,7 @@
       {
         "id": 2,
         "type": "image",
-        "content": "https://picsum.photos/seed/about2/1200/600",
+        "content": "/assets/10.png",
         "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
       },
       {
@@ -102,7 +102,7 @@
       {
         "id": 2,
         "type": "image",
-        "content": "https://picsum.photos/seed/vision/1200/600",
+        "content": "/assets/11.png",
         "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
       },
       {
@@ -136,7 +136,7 @@
       {
         "id": 1,
         "type": "image",
-        "content": "https://picsum.photos/seed/project-clock/800/600",
+        "content": "/assets/12.png",
         "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
       },
       {
@@ -176,7 +176,7 @@
       {
         "id": 1,
         "type": "image",
-        "content": "https://picsum.photos/seed/procurement-keyboard/800/600",
+        "content": "/assets/13.png",
         "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
       },
       {
@@ -234,7 +234,7 @@
       {
         "id": 1,
         "type": "image",
-        "content": "https://picsum.photos/seed/fabrication-weld/800/600",
+        "content": "/assets/14.png",
         "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
       },
       {
@@ -280,7 +280,7 @@
       {
         "id": 1,
         "type": "image",
-        "content": "https://picsum.photos/seed/logistics-ship/800/600",
+        "content": "/assets/15.png",
         "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
       },
       {
@@ -367,7 +367,7 @@
     "phone": "+82-10-3801-8711",
     "fax": "+82-0504-366-9911",
     "address": "Room 415, 1665-8, Samdong-ro, Ungchon-myeon, Ulju-gun, Ulsan, 44962, Republic of Korea",
-    "image": "https://picsum.photos/seed/contact/800/500"
+    "image": "/assets/16.png"
   },
   "footer": {
     "copyright": "Copyright © CK Corporation. All rights reserved."
