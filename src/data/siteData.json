@@ -1,0 +1,376 @@
+{
+  "logo": {
+    "text": "CK Corporation",
+    "image": "https://picsum.photos/seed/cklogo/200/50"
+  },
+  "theme": {
+    "primary": "#1a202c",
+    "accent": "#C8102E"
+  },
+  "home": {
+    "hero": {
+      "title": "We are full service provider of Engineering, Procurement, Fabrication and Project Management",
+      "image": "https://picsum.photos/seed/ckhero/1920/600"
+    },
+    "solutions": {
+      "title": "CK Corporation Provides Reasonable of Solutions for Clients",
+      "items": [
+        {
+          "title": "HRSG (Heat Recovery Steam Generation)",
+          "image": "https://picsum.photos/seed/hrsg/400/300"
+        },
+        {
+          "title": "Modular Construction",
+          "image": "https://picsum.photos/seed/modular/400/300"
+        },
+        {
+          "title": "Evaporator for Desalination Plant",
+          "image": "https://picsum.photos/seed/evaporator/400/300"
+        }
+      ]
+    },
+    "products": {
+      "title": "CK Corporation Supply Featured Products for Clients",
+      "items": [
+        {
+          "title": "Reactor (Cr-Mo & Vanadium)",
+          "image": "https://picsum.photos/seed/reactor/400/300"
+        },
+        {
+          "title": "Special & High Pressure Heat Exchanger",
+          "image": "https://picsum.photos/seed/exchanger/400/300"
+        },
+        {
+          "title": "Tower/ Column/ Pressure Vessel",
+          "image": "https://picsum.photos/seed/vessel/400/300"
+        }
+      ]
+    }
+  },
+  "company-overview": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "text",
+        "content": "What we do",
+        "styles": { "fontSize": "32px", "fontWeight": "700", "color": "#1a202c", "textAlign": "center", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "content": "https://picsum.photos/seed/about1/1200/600",
+        "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "We are a dynamic privately owned organization, having a leading vision in the practices of engineering, technical procurement, fabrication, project management and management consulting services. We work across a wide array of market sectors: Oil & Gas, Refining, Chemical & Petrochemical, and Water industries. Our motivated and dedicated team of experts combine in-depth experiences and unique approaches and insights to implement practical solutions, support business processes and unlock significant values for our clients.\n\nCK Corporation is the partner of choice when it matters most.",
+        "styles": { "fontSize": "18px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px" }
+      }
+    ]
+  },
+  "our-advantages": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "text",
+        "content": "Why Choosing us",
+        "styles": { "fontSize": "32px", "fontWeight": "700", "color": "#1a202c", "textAlign": "center", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "content": "https://picsum.photos/seed/about2/1200/600",
+        "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "Our business model is designed to deliver effective and efficient outcomes. We know how to organize, plan, design and manage our assets more efficiently than ever before. We develop solutions tailored to a client's unique context and competitive advantage. Our clients' successes are our own. Each solution we provide is grounded in how the client organization actually works and its unique position in the marketplace.",
+        "styles": { "fontSize": "18px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px" }
+      }
+    ]
+  },
+  "vision-mission": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "text",
+        "content": "Mission & Vision",
+        "styles": { "fontSize": "32px", "fontWeight": "700", "color": "#1a202c", "textAlign": "center", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "content": "https://picsum.photos/seed/vision/1200/600",
+        "styles": { "width": "100%", "borderRadius": "12px", "marginTop": "0px", "marginBottom": "40px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "Mission",
+        "styles": { "fontSize": "24px", "fontWeight": "700", "color": "#C8102E", "textAlign": "left", "marginTop": "20px", "marginBottom": "10px" }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": "We focus and emphasize on developing project management and quality enhancement systems. Our team ensures that projects are completed on time, within budgets and meet client's expectations and project objectives.",
+        "styles": { "fontSize": "18px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "30px" }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": "Vision",
+        "styles": { "fontSize": "24px", "fontWeight": "700", "color": "#C8102E", "textAlign": "left", "marginTop": "20px", "marginBottom": "10px" }
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "content": "We have the passion to be recognized as the preferred partner for our customers, in providing most versatile and unparalleled engineering, design, technical-procurement, and project management consultancy services through our time bound, cost effective and un-paralleled services and solutions to our clients.",
+        "styles": { "fontSize": "18px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px" }
+      }
+    ]
+  },
+  "product-management": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "image",
+        "content": "https://picsum.photos/seed/project-clock/800/600",
+        "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "content": "Project Management",
+        "styles": { "fontSize": "28px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "16px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "Project management is one of our core services, helping to deliver our consulting, engineering excellence and fabrication services to our clients. We offer tailored Project Management Consultancy (PMC) services to support our clients' specific needs. With our flexible approach we can provide a comprehensive range of project management services to help reduce technical risks, prevent non-conformities, control budgets and effectively keep your project within the planned schedule. Plus, we can help you meet all applicable requirements, whether they are regulatory, voluntary or client based.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.6" }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": "In addition to the discipline engineering and project controls support, we also provide specialist support in the following areas",
+        "styles": { "fontSize": "18px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "40px", "marginBottom": "20px", "fullWidth": true }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": "• Project Planning and performance control\n• Cost Estimating and cost control\n• Technical Engineering Supports during project execution\n• Risk Analysis and Response Management\n• Procurement and Procurement Management\n• Vendor Selection assistance\n• Fabrication Management",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "marginRight": "4%", "lineHeight": "1.8" }
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "content": "• Contract Management\n• Invoicing and payment follow-ups\n• Installation Management\n• Construction Management\n• Commissioning & Start-up Support\n• After sales services\n• Training",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "lineHeight": "1.8" }
+      }
+    ]
+  },
+  "procurement": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "image",
+        "content": "https://picsum.photos/seed/procurement-keyboard/800/600",
+        "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "content": "Procurement",
+        "styles": { "fontSize": "28px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "16px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "We provide our clients with procurement solutions that don't sacrifice quality and service. Our procurement team are experienced in the supply and Procurement of plant materials, equipment and solutions, in finished or semi-finished status for projects in process industries, with particular emphasis on oil, gas (Production, Processing and Refining) and petrochemical sector.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.6" }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": "We provide procurement services in one the following three modes",
+        "styles": { "fontSize": "18px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "12px" }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": "• As the clients’ purchasing agent.\n• As a contractor, directly issuing purchase orders to our vendors.\n• As support to the clients project purchasing.",
+        "styles": { "fontSize": "14px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.8" }
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "content": "Typical procurement services offered by CK Corp are :",
+        "styles": { "fontSize": "18px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "40px", "marginBottom": "20px", "fullWidth": true }
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "content": "• Preparation of procurement documents (RFQ, Tender Documents, etc.)\n• Inventory management\n• Pre-qualification of vendors and quality control / audit processes.\n• PO Placement facilitation\n• Contracts management\n• Transactional services and supports\n• Job expedition, coordination and troubleshooting activities\n• Controlling and reporting procurement progress and performance report preparations",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "marginRight": "4%", "lineHeight": "1.8" }
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "content": "• Arranging inspection for Factory Acceptance Tests (FAT) / Site Acceptance Tests (SAT)\n• Seaworthy packaging (if necessary)\n• Monitoring freight forwarding and dispatching\n• Import-export and regulatory compliance\n• Traffic and logistics\n• Customs clearance services\n• Inland logistics and site delivery",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "lineHeight": "1.8" }
+      },
+      {
+        "id": 9,
+        "type": "text",
+        "content": "Our procurement philosophy and governance demonstrate industry best practice in establishing best value procurement solutions. Full integration between our engineering and procurement teams allows us to optimize supply to add value to projects through intelligent Sourcing Strategies and Supply Management techniques.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "40px", "marginBottom": "20px", "lineHeight": "1.6" }
+      }
+    ]
+  },
+  "fabrication": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "image",
+        "content": "https://picsum.photos/seed/fabrication-weld/800/600",
+        "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "content": "Fabrication",
+        "styles": { "fontSize": "28px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "16px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "In addition to our own dedicated assembly workshop, we also have cooperation agreements with multiple other equipped design-to-delivery metal manufacturing facilities, all offering state-of-the-art fabrication services. Our multi-capable facilities back our assurance that your fabrication is carried out and delivered in full accordance with your requirements.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.6" }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": "Our fabrication or fabrication management services are the preferred choice for those clients who seek for accurate, agile and precise manufacturing of equipment serving the Oil & Gas, Refineries, Petrochemicals and Power Sectors in Iran. Our commitment to the clients is proven by the quality management system & Occupation Health & Safety Management System certifications.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.6" }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": "We have the capabilities to present a wide range of fabrication services including but not limited to :",
+        "styles": { "fontSize": "18px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "40px", "marginBottom": "20px", "fullWidth": true }
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "content": "• Fabrication of Process Equipment\n• Fabrication of Convection Coils (used in convective section of fired heaters)\n• Fabrication of Radiant Coils (used in radiation section of fired heaters)\n• Application of Refractory and Linings in fired heater components\n• Modular fabrication of petals / modules (for pressure parts in fired heaters)",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "marginRight": "4%", "lineHeight": "1.8" }
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "content": "• Piping-related fabrication services",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "display": "inline-block", "width": "48%", "lineHeight": "1.8" }
+      }
+    ]
+  },
+  "logistics": {
+    "blocks": [
+      {
+        "id": 1,
+        "type": "image",
+        "content": "https://picsum.photos/seed/logistics-ship/800/600",
+        "styles": { "width": "100%", "borderRadius": "4px", "marginTop": "0px", "marginBottom": "20px" }
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "content": "Logistics",
+        "styles": { "fontSize": "28px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "16px" }
+      },
+      {
+        "id": 3,
+        "type": "text",
+        "content": "You, the customer, are our number one priority. Our agile staff are dedicated to your logistics service needs, assuring your cargo is properly delivered. By bringing best practices, you receive consistent performance moving your logistics equipment and supplies anywhere in the world. Our unique combination of experience, excellence, and innovation leads to peace of mind for our customers. Providing you with efficient and cost-saving solutions is the goal of our team. Practical options for your cargo transport are the common sense answers you need to the complex challenges of the market.",
+        "styles": { "fontSize": "15px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "24px", "lineHeight": "1.6" }
+      },
+      {
+        "id": 4,
+        "type": "text",
+        "content": "Some of applications are :",
+        "styles": { "fontSize": "18px", "fontWeight": "700", "color": "#4a5568", "textAlign": "left", "marginTop": "40px", "marginBottom": "20px", "fullWidth": true }
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "content": "• Heavy lifting solutions\n• Seaworthy packaging (if necessary)\n• Global sea freight and air freight\n• Cargo tracking\n• Site logistics\n• Warehousing and storage\n• Export compliance\n• Customs clearance and import process management\n• Total Logistics Management",
+        "styles": { "fontSize": "13px", "fontWeight": "400", "color": "#4a5568", "textAlign": "left", "marginTop": "0px", "marginBottom": "20px", "lineHeight": "1.8" }
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "name": "HOME",
+      "path": "/",
+      "dropdown": []
+    },
+    {
+      "name": "ABOUT",
+      "path": "/about",
+      "dropdown": [
+        {
+          "name": "Company Overview",
+          "path": "/about/overview"
+        },
+        {
+          "name": "Our Advantages",
+          "path": "/about/advantages"
+        },
+        {
+          "name": "Vision & Mission",
+          "path": "/about/vision"
+        }
+      ]
+    },
+    {
+      "name": "SERVICE",
+      "path": "/service",
+      "dropdown": [
+        {
+          "name": "Product Management",
+          "path": "/service/product-management"
+        },
+        {
+          "name": "Procurement",
+          "path": "/service/procurement"
+        },
+        {
+          "name": "Fabrication",
+          "path": "/service/fabrication"
+        },
+        {
+          "name": "Logistics",
+          "path": "/service/logistics"
+        }
+      ]
+    },
+    {
+      "name": "CONTACT",
+      "path": "/contact"
+    }
+  ],
+  "contact": {
+    "title": "Contact us",
+    "email": "sales@ck-corp.co.kr",
+    "emailAlt": "guparikim@ck-corp.co.kr",
+    "phone": "+82-10-3801-8711",
+    "fax": "+82-0504-366-9911",
+    "address": "Room 415, 1665-8, Samdong-ro, Ungchon-myeon, Ulju-gun, Ulsan, 44962, Republic of Korea",
+    "image": "https://picsum.photos/seed/contact/800/500"
+  },
+  "footer": {
+    "copyright": "Copyright © CK Corporation. All rights reserved."
+  },
+  "adminPassword": "admin123"
+}
