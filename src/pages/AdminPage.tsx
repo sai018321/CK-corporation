@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, Reorder } from 'motion/react';
-import { Save, LogOut, Image as ImageIcon, Type, Layout as LayoutIcon, ArrowLeft, Trash2, Plus, Settings, ChevronDown, ChevronUp, AlignLeft, AlignCenter, AlignRight, Bold, Palette, Move, Sparkles, Loader2 } from 'lucide-react';
+import { Save, LogOut, Image as ImageIcon, Type, Layout as LayoutIcon, ArrowLeft, Trash2, Plus, Settings, ChevronDown, ChevronUp, AlignLeft, AlignCenter, AlignRight, Bold, Palette, Move, Sparkles, Loader2, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { GoogleGenAI } from "@google/genai";
 
@@ -68,28 +68,40 @@ const AdminPage: React.FC<AdminPageProps> = ({ data, onUpdate }) => {
   };
 
   const handleSave = async () => {
+    // Always save to localStorage first for immediate feedback
+    localStorage.setItem('ck_corp_site_data', JSON.stringify(localData));
+    onUpdate(localData);
+
     try {
       const response = await fetch('/api/site-data', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(localData),
       });
+      
       if (response.ok) {
-        onUpdate(localData);
-        alert('Changes saved successfully!');
+        alert('Changes saved successfully to server!');
       } else {
-        const errorData = await response.json().catch(() => ({}));
-        const errorMessage = errorData.error || response.statusText;
-        if (response.status === 404 || response.status === 405) {
-          alert(`Failed to save changes: This site is hosted on a static platform (like GitHub Pages) which doesn't support saving changes directly to the server. \n\nPlease use the admin panel in your local development environment to make changes, then push the updated siteData.json to GitHub.`);
-        } else {
-          alert(`Failed to save changes: ${errorMessage}`);
-        }
+        // If server save fails (static host), we already saved to localStorage
+        console.warn('Server save failed, but changes are saved in your browser.');
+        alert('Changes saved to your browser! \n\nNote: Since this is a static site, changes are only visible to you. To make them permanent for everyone, use the "Download JSON" button and update your GitHub repository.');
       }
     } catch (error) {
       console.error('Save error:', error);
-      alert('Failed to save changes. Please check your connection.');
+      alert('Changes saved to your browser! \n\nNote: Server connection failed. To make changes permanent for everyone, use the "Download JSON" button and update your GitHub repository.');
     }
+  };
+
+  const downloadJSON = () => {
+    const dataStr = JSON.stringify(localData, null, 2);
+    const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+    
+    const exportFileDefaultName = 'siteData.json';
+    
+    const linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', exportFileDefaultName);
+    linkElement.click();
   };
 
   const generateIndustrialImages = async () => {
@@ -280,12 +292,21 @@ const AdminPage: React.FC<AdminPageProps> = ({ data, onUpdate }) => {
               localData.navigation.find((n: any) => n.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') === activeTab)?.name || activeTab
             }
           </h1>
-          <button
-            onClick={handleSave}
-            className="flex items-center gap-2 bg-emerald-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition-colors shadow-sm"
-          >
-            <Save size={18} /> Save Changes
-          </button>
+          <div className="flex gap-3">
+            <button
+              onClick={downloadJSON}
+              className="flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-sm"
+              title="Download updated data to upload to GitHub"
+            >
+              <Download size={18} /> Download JSON
+            </button>
+            <button
+              onClick={handleSave}
+              className="flex items-center gap-2 bg-emerald-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition-colors shadow-sm"
+            >
+              <Save size={18} /> Save Changes
+            </button>
+          </div>
         </header>
 
         <main className="flex-1 overflow-y-auto p-8">

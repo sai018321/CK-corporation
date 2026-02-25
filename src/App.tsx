@@ -11,7 +11,18 @@ import DynamicPage from './pages/DynamicPage';
 import initialData from './data/siteData.json';
 
 export default function App() {
-  const [siteData, setSiteData] = useState<any>(initialData);
+  const [siteData, setSiteData] = useState<any>(() => {
+    // Try to load from localStorage first for immediate feedback on static hosts
+    const savedData = localStorage.getItem('ck_corp_site_data');
+    if (savedData) {
+      try {
+        return JSON.parse(savedData);
+      } catch (e) {
+        return initialData;
+      }
+    }
+    return initialData;
+  });
   const [loading, setLoading] = useState(true);
 
   const fetchSiteData = async () => {
@@ -23,10 +34,11 @@ export default function App() {
       const data = await response.json();
       if (data && !data.error) {
         setSiteData(data);
+        // Sync with localStorage
+        localStorage.setItem('ck_corp_site_data', JSON.stringify(data));
       }
     } catch (error: any) {
-      console.warn('Server data not available, using bundled data:', error.message);
-      // We don't throw here because we have initialData as fallback
+      console.warn('Server data not available, using local/bundled data:', error.message);
     } finally {
       setLoading(false);
     }
