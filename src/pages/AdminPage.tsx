@@ -79,7 +79,12 @@ const AdminPage: React.FC<AdminPageProps> = ({ data, onUpdate }) => {
         alert('Changes saved successfully!');
       } else {
         const errorData = await response.json().catch(() => ({}));
-        alert(`Failed to save changes: ${errorData.error || response.statusText}`);
+        const errorMessage = errorData.error || response.statusText;
+        if (response.status === 404 || response.status === 405) {
+          alert(`Failed to save changes: This site is hosted on a static platform (like GitHub Pages) which doesn't support saving changes directly to the server. \n\nPlease use the admin panel in your local development environment to make changes, then push the updated siteData.json to GitHub.`);
+        } else {
+          alert(`Failed to save changes: ${errorMessage}`);
+        }
       }
     } catch (error) {
       console.error('Save error:', error);
