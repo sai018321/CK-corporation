@@ -16,10 +16,17 @@ export default function App() {
   const fetchSiteData = async () => {
     try {
       const response = await fetch('/api/site-data');
+      if (!response.ok) {
+        throw new Error(`Server responded with ${response.status}: ${response.statusText}`);
+      }
       const data = await response.json();
+      if (data.error) {
+        throw new Error(data.error);
+      }
       setSiteData(data);
-    } catch (error) {
+    } catch (error: any) {
       console.error('Failed to fetch site data:', error);
+      // You could set an error state here to show a more specific message
     } finally {
       setLoading(false);
     }

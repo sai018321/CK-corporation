@@ -17,11 +17,20 @@ async function startServer() {
   const dataPath = path.resolve(__dirname, "src/data/siteData.json");
 
   // API routes
+  app.get("/api/health", (req, res) => {
+    res.json({ status: "ok", timestamp: new Date().toISOString() });
+  });
+
   app.get("/api/site-data", (req, res) => {
     try {
+      if (!fs.existsSync(dataPath)) {
+        console.error(`Data file not found at: ${dataPath}`);
+        return res.status(404).json({ error: "Site data file not found" });
+      }
       const data = fs.readFileSync(dataPath, "utf-8");
       res.json(JSON.parse(data));
     } catch (error) {
+      console.error("Error reading site data:", error);
       res.status(500).json({ error: "Failed to read site data" });
     }
   });
