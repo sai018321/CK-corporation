@@ -1,8 +1,8 @@
 {
   "logo": {
     "text": "CK Corporation",
-    "image": "/public/assets/1.jpg"
-  },
+    "image": "/assets/1.jpg"
+      },
   "theme": {
     "primary": "#1a202c",
     "accent": "#C8102E"
